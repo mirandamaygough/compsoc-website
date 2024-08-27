@@ -1,6 +1,7 @@
 'use client';
 
 import {Event, EventCard} from "../components/events-card";
+import Navbar from "../components/navbar";
 
 import { useEffect, useState } from 'react';
 
@@ -24,6 +25,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
+      <Navbar />
       <h1 className="text-6xl font-bold text-center"> Leeds Computing Society</h1>
       <p className="text-2xl text-center">
         Welcome to the website of the University of Leeds Computing Society!
@@ -40,6 +42,7 @@ export default function Home() {
               eventName={event.eventName}
               date={event.date}
               time={event.time}
+              location={event.location}
               description={event.description}
               photo={event.photo}
           />

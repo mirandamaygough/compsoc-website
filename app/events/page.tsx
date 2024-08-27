@@ -1,6 +1,7 @@
 'use client';
 
 import {Event, EventCard} from "../../components/events-card";
+import Navbar from "../../components/navbar";
 
 import { useEffect, useState } from 'react';
 
@@ -26,7 +27,8 @@ export default function Events() {
 
   return (
     <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
-      <h1 className="text-6xl font-bold text-center"> Events</h1>
+      <Navbar />
+      <h1 className="text-6xl font-bold text-center">Our events</h1>
       <h2 className="text-4xl font-bold text-center">Upcoming events</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {upcomingEvents.map((event, index) => (
@@ -35,6 +37,7 @@ export default function Events() {
               eventName={event.eventName}
               date={event.date}
               time={event.time}
+              location={event.location}
               description={event.description}
               photo={event.photo}
           />
@@ -48,6 +51,7 @@ export default function Events() {
                 eventName={event.eventName}
                 date={event.date}
                 time={event.time}
+                location={event.location}
                 description={event.description}
                 photo={event.photo}
             />
