@@ -22,7 +22,7 @@ export default function Committee() {
             role="Vice President"
             roleDescription="Supports the President and other committee members in their roles, and promotes the society within the community."
             email="jacob@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-jacob.jpg"
         />
         <CommitteeMemberCard
             name="Luca McAtarsney"
@@ -43,7 +43,7 @@ export default function Committee() {
             role="Social Secretary"
             roleDescription="Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
             email="jibran@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-jibran.jpg"
         />
         <CommitteeMemberCard
             name="Linton Fogden"
@@ -57,14 +57,14 @@ export default function Committee() {
             role="Academic Events Secretary"
             roleDescription="Organises and runs events such as the first hackathon coming up in 2025, and coordinates industry collaborations."
             email="evan@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-evan.jpg"
         />
         <CommitteeMemberCard
             name="Louis Bishop"
             role="Gaming and Interests Secretary"
             roleDescription="Organises and runs social events linked to the interests and hobbies of members, such as Pixel Bar gaming tournaments."
             email="louis@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-louis.jpg"
         />
         <CommitteeMemberCard
             name="Miranda Gough"
@@ -85,7 +85,7 @@ export default function Committee() {
             role="Social Media Officer"
             roleDescription="Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
             email="abbie@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-abbie.jpg"
         />
         <CommitteeMemberCard
             name="Diya Anegundi"

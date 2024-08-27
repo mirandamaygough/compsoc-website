@@ -8,4 +8,9 @@ To run the development server:
 npm run dev
 ```
 
+On first running you will also need to install the react-icons package.
+```bash
+npm install react-icons
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. Edit the page by modifying `app/page.tsx`.
