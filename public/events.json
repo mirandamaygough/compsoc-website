@@ -1,0 +1,20 @@
+[
+    {
+        "eventName": "Freshers Fair Stall",
+        "date": "2024-09-24",
+        "time": "10:00",
+        "description": "Come and meet us at the Freshers Fair to find out more about the society and our events, with merchandise and competitions."
+    },
+    {
+        "eventName": "Pixel Bar Social",
+        "date": "2024-10-03",
+        "time": "20:00",
+        "description": "Join us for our first Give it a Go at Pixel Bar to meet other members and play some games."
+    },
+    {
+        "eventName": "Capture the Flag",
+        "date": "2024-10-07",
+        "time": "18:00",
+        "description": "Test your cybersecurity skills in our second Give it a Go, with prizes for the winning team."
+    }
+]
