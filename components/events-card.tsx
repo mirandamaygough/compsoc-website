@@ -28,7 +28,7 @@ export const EventCard: React.FC<EventCardProps> = ({
                 <h2 className="text-xl font-bold mb-2">{eventName}</h2>
                 <p className="text-gray-500 mb-2">
                     <LuCalendarClock className="inline mr-2" size={20} />
-                    {new Intl.DateTimeFormat('en-UK', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date(`${date}T${time}`))} at {new Intl.DateTimeFormat('en-UK', { hour: 'numeric', minute: 'numeric', hour12: true }).format(new Date(`${date}T${time}`))}
+                    {new Intl.DateTimeFormat('en-UK', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(`${date}T${time}`))} at {new Intl.DateTimeFormat('en-UK', { hour: 'numeric', minute: 'numeric', hour12: true }).format(new Date(`${date}T${time}`))}
                 </p>
                 <p className="text-gray-500 mb-2">
                     <LuMapPin className="inline mr-2" size={20} />{location}
