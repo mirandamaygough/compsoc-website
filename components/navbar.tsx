@@ -7,6 +7,7 @@ const Navbar = () => {
                 <Link href="/" className="text-4xl font-bold text-center">Home</Link>
                 <Link href="/events" className="text-4xl font-bold text-center">Events</Link>
                 <Link href="/committee" className="text-4xl font-bold text-center">Committee</Link>
+                <Link href="/contact" className="text-4xl font-bold text-center">Contact</Link>
             </div>
         </nav>
     );
