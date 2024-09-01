@@ -35,7 +35,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex-1">
-          <img src="/images/CompSocElement.png" alt="Hero Image" className="w-full h-auto" />
+          <img src="/images/CompSocElement1.png" alt="Hero Image" className="w-full h-auto" />
         </div>
       </div>
 
