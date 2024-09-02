@@ -3,7 +3,7 @@ import { CommitteeMemberCard } from "../../components/committee-card";
 
 export default function Committee() {
     return (
-        <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
+        <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
         <Navbar />
         <h1 className="text-6xl font-bold text-center">Meet the committee</h1>
         <p className="text-2xl text-center">
