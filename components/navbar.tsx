@@ -11,6 +11,7 @@ const Navbar = () => {
     };
 
     return (
+        <>
         <nav className="fixed top-0 left-0 w-full bg-primary z-50 md:mt-10">
             <div className="flex flex-col md:flex-row items-center justify-between px-4 py-2">
                 <div className="flex justify-between w-full md:hidden">
@@ -40,6 +41,10 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+        {isOpen && (
+            <div className="fixed inset-0 bg-black bg-opacity-50 z-40" onClick={toggleMenu}></div>
+        )}
+    </>
     );
 };
 
