@@ -2,7 +2,7 @@
 
 import {Event, EventCard} from "../components/events-card";
 import Navbar from "../components/navbar";
-
+import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react';
 
 
@@ -29,7 +29,19 @@ export default function Home() {
       
       <div className="pt-14 flex flex-col md:flex-row items-center justify-between w-full space-y-6 md:space-y-0 md:space-x-6">
         <div className="flex-1 order-2 md:order-1">
-          <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10">Leeds Computing Society</h1>
+          <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10">
+            <Typewriter
+             onInit={(typewriter) => {
+              typewriter
+                .typeString('Leeds Computing Society')
+                .pauseFor(2500000)
+                .callFunction(() => {
+                  // Ensure the text stays after typing
+                  document.querySelector('.Typewriter__wrapper')!.innerHTML = 'Leeds Computing Society';
+                })
+                .start();
+            }}
+            /></h1>
           <p className="text-2xl px-4 mt-4 md:px-10">
             Welcome to the website of the University of Leeds Computing Society!
           </p>
