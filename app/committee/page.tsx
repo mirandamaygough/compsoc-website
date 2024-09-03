@@ -78,7 +78,7 @@ export default function Committee() {
             role="Branding Secretary"
             roleDescription="Creates and manages the society's branding guidelines, including the website design, logo, posters, and merchandise."
             email="paige@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-paige.jpg"
         />
         <CommitteeMemberCard
             name="Abbie Heelas"
