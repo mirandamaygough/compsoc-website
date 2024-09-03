@@ -24,18 +24,18 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
+    <main className="flex w-full min-h-screen flex-col items-center space-y-6 p-4 md:p-24 bg-primary text-white">
       <Navbar />
       
       <div className="pt-14 flex flex-col md:flex-row items-center justify-between w-full space-y-6 md:space-y-0 md:space-x-6">
-        <div className="flex-1">
-          <h1 className="text-8xl font-bold px-10 mt-10">Leeds Computing Society</h1>
-          <p className="text-2xl mt-4 px-10">
+        <div className="flex-1 order-2 md:order-1">
+          <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10">Leeds Computing Society</h1>
+          <p className="text-2xl px-4 mt-4 md:px-10">
             Welcome to the website of the University of Leeds Computing Society!
           </p>
         </div>
-        <div className="flex-1">
-          <img src="/images/CompSocElement1.png" alt="Hero Image" className="w-full h-auto" />
+        <div className="flex-1 order-1 md:order-2">
+          <img src="/images/CompSocElement1.png" alt="Hero Image" className="w-full h-auto mt-[-30px] md:mt-0" />
         </div>
       </div>
 

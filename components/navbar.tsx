@@ -1,27 +1,44 @@
+"use client";
+
+import { useState } from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
-    return (
-        <nav className="mt-[-30px]">
-            <div className="flex items-center space-x-20">
-                <Link href="/" className="text-4xl font-bold text-center group">
-                    Home
-                    <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300"></span>
-                </Link>
-                <Link href="/events" className="text-4xl font-bold text-center group">
-                    Events
-                    <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300"></span>
-                </Link>
-                <Link href="/committee" className="text-4xl font-bold text-center group">
-                    Committee
-                    <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300"></span>
-                </Link>
-                <Link href="/contact" className="text-4xl font-bold text-center group">
-                    Contact
-                    <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300"></span>
-                </Link>
-            </div> 
+    const [isOpen, setIsOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <nav className="fixed top-0 left-0 w-full bg-primary z-50 md:mt-10">
+            <div className="flex flex-col md:flex-row items-center justify-between px-4 py-2">
+                <div className="flex justify-between w-full md:hidden">
+                    <button onClick={toggleMenu} className="text-white focus:outline-none mt-4">
+                        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div className={`flex-1 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-20 ${isOpen ? 'block' : 'hidden'} md:flex`}>
+                    <Link href="/" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
+                        Home
+                        <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
+                    </Link>
+                    <Link href="/events" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
+                        Events
+                        <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
+                    </Link>
+                    <Link href="/committee" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
+                        Committee
+                        <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
+                    </Link>
+                    <Link href="/contact" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
+                        Contact
+                        <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
+                    </Link>
+                </div>
+            </div>
         </nav>
     );
 };
