@@ -35,8 +35,10 @@ export default function Home() {
                     .typeString('Leeds Computing Society')
                     .pauseFor(2500)
                     .callFunction(() => {
-                      // Ensure the text stays after typing
-                      document.querySelector('.Typewriter__wrapper')!.innerHTML = 'Leeds Computing Society';
+                      const typewriterWrapper = document.querySelector('.Typewriter__wrapper');
+                      if (typewriterWrapper) {
+                        typewriterWrapper.innerHTML = 'Leeds Computing Society';
+                      }
                     })
                     .start();
                 }}
