@@ -15,7 +15,7 @@ export default function Committee() {
             role="President"
             roleDescription="Chairs the committee, coordinates the society's activities, and communicates with sponsors and the School of Computing."
             email="aodhan@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-aodhan.jpg"
         />
         <CommitteeMemberCard
             name="Jacob Stockwell"
@@ -29,7 +29,7 @@ export default function Committee() {
             role="Secretary"
             roleDescription="Organises the day-to-day running of the committee, manages tasks, and leads admininstrative activities."
             email="luca@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-luca.jpg"
         />
         <CommitteeMemberCard
             name="Eschal Najmi"
@@ -50,7 +50,7 @@ export default function Committee() {
             role="Social Secretary"
             roleDescription="Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
             email="linton@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-linton.jpg"
         />
         <CommitteeMemberCard
             name="Evan Madurai"
@@ -92,7 +92,7 @@ export default function Committee() {
             role="Social Media Officer"
             roleDescription="Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
             email="diya@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/logo.png"
         />
         </div>
         </main>

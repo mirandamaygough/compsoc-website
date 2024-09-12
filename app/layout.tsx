@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LUU Computing Society",
-  description: "The website of Leeds University Union Computing Society",
+  title: "Leeds Computing Society",
+  description: "The website of Leeds Computing Society",
 };
 
 export default function RootLayout({
