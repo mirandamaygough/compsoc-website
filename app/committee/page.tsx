@@ -3,7 +3,7 @@ import { CommitteeMemberCard } from "../../components/committee-card";
 
 export default function Committee() {
     return (
-        <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
+        <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
         <Navbar />
         <h1 className="text-6xl font-bold text-center">Meet the committee</h1>
         <p className="text-2xl text-center">
@@ -78,7 +78,7 @@ export default function Committee() {
             role="Branding Secretary"
             roleDescription="Creates and manages the society's branding guidelines, including the website design, logo, posters, and merchandise."
             email="paige@luucompsoc.co.uk"
-            photo="/images/committee/committee-miranda.jpg"
+            photo="/images/committee/committee-paige.jpg"
         />
         <CommitteeMemberCard
             name="Abbie Heelas"
@@ -92,7 +92,7 @@ export default function Committee() {
             role="Social Media Officer"
             roleDescription="Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
             email="diya@luucompsoc.co.uk"
-            photo="/images/logo.png"
+            photo="/images/committee/committee-diya.jpg"
         />
         </div>
         </main>

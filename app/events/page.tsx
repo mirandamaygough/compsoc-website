@@ -26,7 +26,7 @@ export default function Events() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
+    <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
       <Navbar />
       <h1 className="text-6xl font-bold text-center">Our events</h1>
         <p className="text-2xl text-center">

@@ -15,7 +15,7 @@ const ContactPage: React.FC = () => {
     };
 
     return (
-        <main className="flex min-h-screen flex-col items-center space-y-6 p-24">
+        <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
         <Navbar />
         <h1 className="text-6xl font-bold text-center">Contact us</h1>
         <form onSubmit={handleSubmit} className="w-full max-w-md">
