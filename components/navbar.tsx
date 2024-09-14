@@ -100,10 +100,10 @@ const Navbar = () => {
                             Committee
                             <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
                         </Link>
-                        <Link href="/contact" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
+                        {/* <Link href="/contact" className="group flex flex-col items-center text-4xl font-bold text-center group" onClick={() => setIsOpen(false)}>
                             Contact
                             <span className="block h-1 bg-transparent group-hover:bg-CompSocBlue transition-all duration-300 w-full"></span>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </nav>
