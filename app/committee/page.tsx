@@ -16,6 +16,8 @@ export default function Committee() {
             roleDescription="Chairs the committee, coordinates the society's activities, and communicates with sponsors and the School of Computing."
             email="aodhan@luucompsoc.co.uk"
             photo="/images/committee/committee-aodhan.jpg"
+            photoHeight={1600}
+            photoWidth={1600}
         />
         <CommitteeMemberCard
             name="Jacob Stockwell"
@@ -23,6 +25,8 @@ export default function Committee() {
             roleDescription="Supports the President and other committee members in their roles, and promotes the society within the community."
             email="jacob@luucompsoc.co.uk"
             photo="/images/committee/committee-jacob.jpg"
+            photoHeight={1872}
+            photoWidth={1872}
         />
         <CommitteeMemberCard
             name="Luca McAtarsney"
@@ -30,6 +34,8 @@ export default function Committee() {
             roleDescription="Organises the day-to-day running of the committee, manages tasks, and leads admininstrative activities."
             email="luca@luucompsoc.co.uk"
             photo="/images/committee/committee-luca.jpg"
+            photoHeight={1023}
+            photoWidth={1023}
         />
         <CommitteeMemberCard
             name="Eschal Najmi"
@@ -37,6 +43,8 @@ export default function Committee() {
             roleDescription="Manages the budget and finances of the society, and ensures that events are fully funded and run smoothly."
             email="eschal@luucompsoc.co.uk"
             photo="/images/committee/committee-eschal.jpg"
+            photoHeight={862}
+            photoWidth={862}
         />
         <CommitteeMemberCard
             name="Jibran Raja"
@@ -44,6 +52,8 @@ export default function Committee() {
             roleDescription="Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
             email="jibran@luucompsoc.co.uk"
             photo="/images/committee/committee-jibran.jpg"
+            photoHeight={1536}
+            photoWidth={1536}
         />
         <CommitteeMemberCard
             name="Linton Fogden"
@@ -51,6 +61,8 @@ export default function Committee() {
             roleDescription="Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
             email="linton@luucompsoc.co.uk"
             photo="/images/committee/committee-linton.jpg"
+            photoHeight={332}
+            photoWidth={332}
         />
         <CommitteeMemberCard
             name="Evan Madurai"
@@ -58,6 +70,8 @@ export default function Committee() {
             roleDescription="Organises and runs events such as the first hackathon coming up in 2025, and coordinates industry collaborations."
             email="evan@luucompsoc.co.uk"
             photo="/images/committee/committee-evan.jpg"
+            photoHeight={878}
+            photoWidth={878}
         />
         <CommitteeMemberCard
             name="Louis Bishop"
@@ -65,6 +79,8 @@ export default function Committee() {
             roleDescription="Organises and runs social events linked to the interests and hobbies of members, such as Pixel Bar gaming tournaments."
             email="louis@luucompsoc.co.uk"
             photo="/images/committee/committee-louis.jpg"
+            photoHeight={2152}
+            photoWidth={2152}
         />
         <CommitteeMemberCard
             name="Miranda Gough"
@@ -72,6 +88,8 @@ export default function Committee() {
             roleDescription="Leads efforts to ensure the society is inclusive and welcoming to all students, and manages initiatives to promote diversity."
             email="miranda@luucompsoc.co.uk"
             photo="/images/committee/committee-miranda.jpg"
+            photoHeight={1080}
+            photoWidth={1080}
         />
         <CommitteeMemberCard
             name="Paige Uppal"
@@ -79,6 +97,8 @@ export default function Committee() {
             roleDescription="Creates and manages the society's branding guidelines, including the website design, logo, posters, and merchandise."
             email="paige@luucompsoc.co.uk"
             photo="/images/committee/committee-paige.jpg"
+            photoHeight={1760}
+            photoWidth={1760}
         />
         <CommitteeMemberCard
             name="Abbie Heelas"
@@ -86,6 +106,8 @@ export default function Committee() {
             roleDescription="Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
             email="abbie@luucompsoc.co.uk"
             photo="/images/committee/committee-abbie.jpg"
+            photoHeight={2048}
+            photoWidth={2048}
         />
         <CommitteeMemberCard
             name="Diya Anegundi"
@@ -93,6 +115,8 @@ export default function Committee() {
             roleDescription="Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
             email="diya@luucompsoc.co.uk"
             photo="/images/committee/committee-diya.jpg"
+            photoHeight={1026}
+            photoWidth={1026}
         />
         </div>
         </main>

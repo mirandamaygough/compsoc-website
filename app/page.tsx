@@ -4,6 +4,7 @@ import { Event, EventCard } from "../components/events-card";
 import Navbar from "../components/navbar";
 import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [events, setEvents] = useState<Event[]>([]);
@@ -49,13 +50,13 @@ export default function Home() {
             </p>
           </div>
           <div className="flex-1 order-1 md:order-2">
-            <img src="/images/CompSocElement1.png" alt="Hero Image" className="w-full h-auto mt-[-30px] md:mt-0" />
+            <Image src="/images/homepage-hero-art.png" alt="Hero Image" className="w-full h-auto mt-[-30px] md:mt-0" height="1110" width="1382"/>
           </div>
         </div>
 
         <h2 className="text-4xl font-bold text-center pt-8">About us</h2>
         <p className="text-2xl text-center pb-12">
-          We are the official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, so there's something for everyone.
+          We are the official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, so there&apos;s something for everyone.
         </p>
         <h2 className="text-4xl font-bold text-center">Upcoming events</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -68,6 +69,8 @@ export default function Home() {
               location={event.location}
               description={event.description}
               photo={event.photo}
+              photoHeight={event.photoHeight}
+              photoWidth={event.photoWidth}
             />
           ))}
         </div>
@@ -77,7 +80,6 @@ export default function Home() {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="flex items-center mb-6 md:mb-0">
-              <img src="/images/logo.png" className="h-14 me-3" alt="CompSoc Logo" />
               <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap">Leeds Computing Society</span>
             </div>
           </div>

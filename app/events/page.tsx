@@ -30,7 +30,7 @@ export default function Events() {
       <Navbar />
       <h1 className="text-6xl font-bold text-center">Our events</h1>
         <p className="text-2xl text-center">
-            We run a range of events to cater to everyone's interests, and aim to increase our offering of academic events and non-alcoholic socials this year. Check out our upcoming and past events below.
+            We run a range of events to cater to everyone&apos;s interests, and aim to increase our offering of academic events and non-alcoholic socials this year. Check out our upcoming and past events below.
         </p>
       <h2 className="text-4xl font-bold text-center">Upcoming events</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -43,6 +43,8 @@ export default function Events() {
               location={event.location}
               description={event.description}
               photo={event.photo}
+              photoHeight={event.photoHeight}
+              photoWidth={event.photoWidth}
           />
       ))}
       </div>
@@ -57,6 +59,8 @@ export default function Events() {
                 location={event.location}
                 description={event.description}
                 photo={event.photo}
+                photoHeight={event.photoHeight}
+                photoWidth={event.photoWidth}
             />
         ))}
         </div>

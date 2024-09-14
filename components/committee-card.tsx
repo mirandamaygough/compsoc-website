@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import { LuMail } from 'react-icons/lu';
 
@@ -8,6 +9,8 @@ export type CommitteeMember = {
     roleDescription: string;
     email: string;
     photo: string;
+    photoHeight: number;
+    photoWidth: number;
 };
 
 interface CommitteeMemberCardProps extends CommitteeMember {}
@@ -18,10 +21,12 @@ export const CommitteeMemberCard: React.FC<CommitteeMemberCardProps> = ({
     roleDescription,
     email,
     photo,
+    photoHeight,
+    photoWidth,
 }) => {
     return (
         <div className="bg-white rounded-slg shadow-lg p-4">
-            <img src={photo} alt={name} className="w-full aspect-w-16 aspect-h-9 object-cover rounded-t-lg" />
+            <Image src={photo} alt={name} className="w-full aspect-w-16 aspect-h-9 object-cover rounded-t-lg" height={photoHeight} width={photoWidth} />
             <div className="p-4">
                 <h2 className="text-black text-xl font-bold mb-2">{name}</h2>
                 <p className="text-black font-bold mb-2">{role}</p>

@@ -26,7 +26,9 @@
         "time": "19:00",
         "location": "LUU Function Room, Woodhouse, Leeds LS2 9JZ",
         "description": "An action-packed night of casino-themed games (without the risk) that raised £376 for Computer Aid International and was praised by attendees as the best social yet!",
-        "photo": "/images/events/events-casino-night.jpg"
+        "photo": "/images/events/events-casino-night.jpg",
+        "photoHeight": "2268",
+        "photoWidth": "2268"
     },
     {
         "eventName": "Fridge-to-Fridge",
