@@ -35,35 +35,52 @@
         "date": "2024-02-16",
         "time": "19:00",
         "location": "Various locations in Hyde Park, Leeds",
-        "description": "A four-part night with different themed alcoholic and non-alcoholic drinks at each location, it was a huge success and a great opportunity to make new friends."
+        "description": "A four-part night with different themed alcoholic and non-alcoholic drinks at each location, it was a huge success and a great opportunity to make new friends.",
+        "photo": "/images/events/events-fridge-to-fridge.jpg",
+        "photoHeight": "988",
+        "photoWidth": "988"
+
     },
     {
         "eventName": "Charity Summer Ball",
         "date": "2024-05-05",
         "time": "18:00",
         "location": "Queens Hotel, New Station Street, City Square, Leeds LS1 1PJ",
-        "description": "Our final and biggest event of the year, the black-tie Summer Ball had 280 attendees who were served a three-course meal with drinks, a DJ, and awards to make it a memorable night."
+        "description": "Our final and biggest event of the year, the black-tie Summer Ball had 280 attendees who were served a three-course meal with drinks, a DJ, and awards to make it a memorable night.",
+        "photo": "/images/events/events-summer-ball.jpg",
+        "photoHeight": "936",
+        "photoWidth": "936"
     },
     {
         "eventName": "Pub Quiz",
         "date": "2023-11-27",
         "time": "18:30",
         "location": "LUU Function Room, Woodhouse, Leeds LS2 9JZ",
-        "description": "A unique computer science twist on a pub quiz, including a hygiene round which was surprisingly well answered, interactive challenges, and themed prizes."
+        "description": "A unique computer science twist on a pub quiz, including a hygiene round which was surprisingly well answered, interactive challenges, and themed prizes.",
+        "photo": "/images/events/events-pub-quiz.jpg",
+        "photoHeight": "1719",
+        "photoWidth": "1719"
     },
     {
         "eventName": "Mario Kart Tournament",
         "date": "2023-11-09",
         "time": "18:00",
         "location":"Pixel Bar, 25 Great George St, Leeds LS1 3AL",
-        "description": "Our first games tournament was a huge success with closely fought battles and a nail-biting final on the big screen, hosted at Pixel Bar who provided equiment and themed drinks."
-    },
+        "description": "Our first games tournament was a huge success with closely fought battles and a nail-biting final on the big screen, hosted at Pixel Bar who provided equiment and themed drinks.",
+        "photo": "/images/events/events-mario-kart.jpg",
+        "photoHeight": "932",
+        "photoWidth": "932"
+    }, 
+
     {
         "eventName": "Smash Bros Ultimate Tournament",
         "date": "2024-02-29",
         "time": "18:00",
         "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
-        "description": "We built on the success of our first tournament by introducing casual and competitive brackets to get more people involved, and once again Louis and Pixel Bar hosted a flawless event."
+        "description": "We built on the success of our first tournament by introducing casual and competitive brackets to get more people involved, and once again Louis and Pixel Bar hosted a flawless event.",
+        "photo": "/images/events/events-smash-bros.jpg",
+        "photoHeight": "2268",
+        "photoWidth": "2268"
     }
 
 ]
