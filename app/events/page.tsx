@@ -26,31 +26,16 @@ export default function Events() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center space-y-6 p-24 bg-primary text-white">
-      <Navbar />
-      <h1 className="text-6xl font-bold text-center">Our events</h1>
-        <p className="text-2xl text-center">
-            We run a range of events to cater to everyone&apos;s interests, and aim to increase our offering of academic events and non-alcoholic socials this year. Check out our upcoming and past events below.
-        </p>
-      <h2 className="text-4xl font-bold text-center">Upcoming events</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {upcomingEvents.map((event, index) => (
-          <EventCard
-              key={index}
-              eventName={event.eventName}
-              date={event.date}
-              time={event.time}
-              location={event.location}
-              description={event.description}
-              photo={event.photo}
-              photoHeight={event.photoHeight}
-              photoWidth={event.photoWidth}
-          />
-      ))}
-      </div>
-        <h2 className="text-4xl font-bold text-center">Past events</h2>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow flex flex-col items-center space-y-6 p-4 md:p-24 bg-primary text-white">
+        <Navbar />
+        <h1 className="text-6xl font-bold text-center pt-6">Our events</h1>
+          <p className="text-2xl text-center">
+              We run a range of events to cater to everyone&apos;s interests, and aim to increase our offering of academic events and non-alcoholic socials this year. Check out our upcoming and past events below.
+          </p>
+        <h2 className="text-4xl font-bold text-center">Upcoming events</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {pastEvents.map((event, index) => (
+        {upcomingEvents.map((event, index) => (
             <EventCard
                 key={index}
                 eventName={event.eventName}
@@ -64,6 +49,23 @@ export default function Events() {
             />
         ))}
         </div>
-    </main>
+          <h2 className="text-4xl font-bold text-center">Past events</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {pastEvents.map((event, index) => (
+              <EventCard
+                  key={index}
+                  eventName={event.eventName}
+                  date={event.date}
+                  time={event.time}
+                  location={event.location}
+                  description={event.description}
+                  photo={event.photo}
+                  photoHeight={event.photoHeight}
+                  photoWidth={event.photoWidth}
+              />
+          ))}
+          </div>
+      </main>
+    </div>
   );
 }

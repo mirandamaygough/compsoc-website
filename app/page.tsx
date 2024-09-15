@@ -46,7 +46,7 @@ export default function Home() {
               />
             </h1>
             <p className="text-2xl px-4 mt-4 md:px-10">
-              Welcome to the website of the University of Leeds Computing Society!
+                Welcome to the website of the University of Leeds Computing Society!
             </p>
           </div>
           <div className="flex-1 order-1 md:order-2">
