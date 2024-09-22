@@ -6,10 +6,10 @@ export default function Flag() {
     return(
         <div className="flex flex-col min-h-screen">
         <main className="flex-grow flex flex-col items-center text-center space-y-6 p-4 md:p-24 bg-primary text-white">
+        <p className="text-2xl font-bold">Flag: adalovelace</p>
             <p>Congratulations, you found the secret flag! Now scan the QR code on the table to fill out the interest form and type the flag 
                 into the &apos;flag&apos; field on the form to be entered into the prize draw to win either a £50 M&S voucher or an Arduino.
             </p>
-            <p className="text-2xl font-bold">Flag: adalovelace</p>
             <p> Why is this the flag? Ada Lovelace was a British mathematician and computer scientist, widely considered to have written the first ever computer program.
                 Her work was pivotal to the field and means you get to be here, hopefully joining Leeds Computing Society, today!
             </p>
