@@ -5,6 +5,8 @@ import Navbar from "../components/navbar";
 import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { LuInstagram, LuUserPlus, LuMail } from "react-icons/lu";
+import { FaDiscord, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {
   const [events, setEvents] = useState<Event[]>([]);
@@ -73,6 +75,29 @@ export default function Home() {
               photoWidth={event.photoWidth}
             />
           ))}
+        </div>
+        <h2 className="text-4xl font-bold text-center pt-8">Links</h2>
+        <div className="flex flex-col items-center space-y-6">
+          <a href="https://www.instagram.com/luucompsoc" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
+            <LuInstagram size="2em" />
+            <span className="text-2xl underline">@luucompsoc on Instagram</span>
+          </a>
+          <a href="https://www.linkedin.com/company/luu-compsoc/" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
+            <FaLinkedin size="2em" />
+            <span className="text-2xl underline ">Leeds Computing Society on Linkedin</span>
+          </a>
+          <a href="https://discord.com/invite/fAneEKuHqs" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
+            <FaDiscord size="2em" />
+            <span className="text-2xl underline ">Leeds Computing Society on Discord</span>
+          </a>
+          <a href="https://engage.luu.org.uk/groups/PQ3/compsoc" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
+            <LuUserPlus size="2em" />
+            <span className="text-2xl underline ">LUU Engage for membership</span>
+          </a>
+          <a href="mailto:committee@luucompsoc.co.uk" className="flex items-center space-x-2">
+            <LuMail size="2em" />
+            <span className="text-2xl underline ">committee@luucompsoc.co.uk for general enquiries</span>
+          </a>
         </div>
       </main>
 
