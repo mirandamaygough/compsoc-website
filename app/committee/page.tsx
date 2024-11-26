@@ -6,8 +6,8 @@ export default function Committee() {
         <div className="flex flex-col min-h-screen">
             <main className="flex-grow flex flex-col items-center space-y-6 p-4 md:p-24 bg-primary text-white">
             <Navbar />
-            <h1 className="text-6xl font-bold text-center pt-6">Meet the committee</h1>
-            <p className="text-2xl text-center">
+            <h1 className="text-6xl font-bold text-left pt-6">Meet the committee</h1>
+            <p className="text-2xl text-left font-barlow">
                 Our committee work to ensure the society runs smoothly and that we have a range of events for everyone to enjoy. Please feel free to get in touch with any of us if you have any questions or suggestions.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -17,6 +17,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        jetbrains: ['JetBrains Mono', 'monospace'],
+        barlow: ['Barlow', 'sans-serif'],
+      },
     },
   },
   plugins: [],
