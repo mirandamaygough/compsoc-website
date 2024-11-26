@@ -29,7 +29,7 @@ export default function Sponsors() {
                 <div>
                     <h4 className="text-3xl font-bold text-left mt-4 mb-2">Technical System Administrator</h4>
                     <p className="font-barlow text-xl mb-2">
-                        TPP are currently looking for bright graduates to join their close-knit technical team, this diverse role will allow you to kick start your career in the tech industry. Don't be put off by the breadth of this role as on the job training will be provided in all areas listed below:
+                        TPP are currently looking for bright graduates to join their close-knit technical team, this diverse role will allow you to kick start your career in the tech industry. Don&pos;t be put off by the breadth of this role as on the job training will be provided in all areas listed below:
                     </p>
                     <ul className="list-disc list-inside font-barlow text-xl mb-2 ml-4">
                         <li>SQL Server DBA - optimisation, upgrading & managing</li>
@@ -60,7 +60,7 @@ export default function Sponsors() {
                 <div>
                     <h4 className="text-3xl font-bold text-left mt-6 mb-2">Graduate Business Analyst</h4>
                     <p className="font-barlow text-xl mb-2">
-                    TPP are looking for bright and driven graduates from all disciplines to work on exciting projects in their Analyst team. You will work across a range of healthcare settings to understand requirements, and then collaborate with Software Developers to design new functionality. The role combines aspects of business analysis, systems analysis, and project management.                     </p>
+                    TPP are looking for bright and driven graduates from all disciplines to work on exciting projects in their Analyst team. You will work across a range of healthcare settings to understand requirements, and then collaborate with Software Developers to design new functionality. The role combines aspects of business analysis, systems analysis, and project management.</p>
                     <p className="font-barlow text-xl mb-2">
                     The variety of projects means that you will always have something new to learn. Your first project could be working on functionality to help a hospital manage patient flow in a busy emergency department. On the next, you could be designing and deploying an app for patients in rural communities in China. </p>
                     <p className="font-barlow text-xl mb-2">
