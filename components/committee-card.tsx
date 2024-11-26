@@ -30,8 +30,8 @@ export const CommitteeMemberCard: React.FC<CommitteeMemberCardProps> = ({
             <div className="p-4">
                 <h2 className="text-black text-xl font-bold mb-2">{name}</h2>
                 <p className="text-black font-bold mb-2">{role}</p>
-                <p className="text-gray-700 mb-2">{roleDescription}</p>
-                <p className="text-gray-500 mb-2">
+                <p className="text-lg text-gray-700 mb-2 font-barlow">{roleDescription}</p>
+                <p className="text-lg text-gray-500 mb-2 font-barlow">
                     <LuMail className="inline mr-2" size={20} />{email}
                 </p>
             </div>
