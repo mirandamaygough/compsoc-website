@@ -20,12 +20,12 @@ export default function Leedshack() {
             <h2 className="text-4xl font-bold text-left mt-4">What is LeedsHack?</h2>
             <p className="text-2xl text-left font-barlow">
                 LeedsHack is a 24-hour hackathon in the Sir William Henry Bragg Building where students from across the UK will come together to innovate, collaborate, and create solutions in the fields of computer science and software engineering.
-                We will set challenges, as will our sponsors, to give you a starting point for your project. Then it's up to you to come up with a solution and build it.
+                We will set challenges, as will our sponsors, to give you a starting point for your project. Then it&apos;s up to you to come up with a solution and build it.
                 This is your chance to challenge yourself, learn new skills, connect with like-minded peers, and build your network. It is completely free and food and drink will be provided throughout!
             </p>
             <h2 className="text-4xl font-bold text-left mt-4">Who can participate?</h2>
             <p className="text-2xl text-left font-barlow">
-                If you're a student at a university in the UK, you're eligible to participate in LeedsHack. Whether you're a beginner or an experienced hacker, we welcome all skill levels. Teams will be of up to 4 people, you can either come with a team or we can help you find one on the day.
+                If you&apos;re a student at a university in the UK, you&apos;re eligible to participate in LeedsHack. Whether you&apos;re a beginner or an experienced hacker, we welcome all skill levels. Teams will be of up to 4 people, you can either come with a team or we can help you find one on the day.
             </p>
             <h2 className="text-4xl font-bold text-left mt-4">How can I register?</h2>
             <p className="text-2xl text-left font-barlow">
@@ -33,7 +33,7 @@ export default function Leedshack() {
             </p>
             <h2 className="text-4xl font-bold text-left mt-4">What if my organisation wants to sponsor LeedsHack?</h2>
             <p className="text-2xl text-left font-barlow">
-                If you're interested in sponsoring LeedsHack, please get in touch with us at <a href="mailto:events@luucompsoc.co.uk" className="font-jetbrains text-blue-500 underline">
+                If you&apos;re interested in sponsoring LeedsHack, please get in touch with us at <a href="mailto:events@luucompsoc.co.uk" className="font-jetbrains text-blue-500 underline">
                     <span className="text-blue-500 underline">events@luucompsoc.co.uk</span>
                 </a>
             </p>
