@@ -4,7 +4,7 @@ import { CommitteeMemberCard } from "../../components/committee-card";
 export default function Committee() {
     return (
         <div className="flex flex-col min-h-screen">
-            <main className="flex-grow flex flex-col items-center space-y-6 p-4 md:p-24 bg-primary text-white">
+            <main className="flex-grow flex flex-col items-left space-y-6 p-4 md:p-24 bg-primary text-white">
             <Navbar />
             <h1 className="text-6xl font-bold text-left pt-6">Meet the committee</h1>
             <p className="text-2xl text-left font-barlow">
