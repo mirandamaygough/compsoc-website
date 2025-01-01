@@ -11,8 +11,11 @@ export default function Leedshack() {
         <div className="flex flex-col min-h-screen">
         <main className="flex-grow flex flex-col items-left space-y-6 p-4 md:p-24 bg-primary text-white">
             <Navbar />
-            <div className="flex items-start">
+            {/* <div className="flex items-start">
                  <Image src="/images/LeedsHackLogo.svg" alt="LeedsHack" className = "mt-8 mb-8" width="800" height="428" />
+            </div> */}
+            <div className="flex items-start">
+                 <Image src="/images/leedsHackhero.svg" alt="LeedsHack" className = "mt-8 mb-8" width="1800" height="428" />
             </div>
             <p className="text-2xl text-left font-barlow">
                 We&apos;re excited to announce that on February 8-9th, we will be hosting LeedsHack 2025 at the University of Leeds!
