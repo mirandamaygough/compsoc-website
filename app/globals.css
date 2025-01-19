@@ -34,3 +34,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-bg {
+  background-color: #4CAF50;
+}
+
+.custom-bg-hover:hover {
+  background-color: #308233;
+}
