@@ -81,5 +81,16 @@
         "photo": "/images/events/events-smash-bros.jpg",
         "photoHeight": "2268",
         "photoWidth": "2268"
+    },
+
+    {
+        "eventName": "LeedsHack 2025",
+        "date": "2025-02-08",
+        "time": "10:00",
+        "location": "Sir William Henry Bragg, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "description": "Our first hackathon is coming - expect 24 hours of coding, workshops, and networking with industry professionals, with prizes for the best projects and a chance to showcase your skills. Food and drinks are provided!",
+        "photo": "/images/leedshack/leedshack-logo.jpg",
+        "photoHeight": "500",
+        "photoWidth": "500"
     }
 ]
