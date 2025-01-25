@@ -3,6 +3,7 @@
 import Navbar from "../../components/navbar";
 import Image from "next/image";
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
+import { SponsorCarousel } from "../../components/sponsor-carousel";
 
 import { useState } from 'react';
 
@@ -93,12 +94,15 @@ export default function Leedshack() {
             </div>
              */}
             <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-24 pt-4 pb-8">
-                <img className="max-h-20 w-auto object-contain" src="/images/sponsors/Snowflake_Logo.png" alt="Snowflake" />
-                <img className="max-h-20 w-auto object-contain" src="/images/sponsors/IMDb_logo.png" alt="IMDb" />
-                <img className="max-h-12 w-auto object-contain" src="/images/sponsors/Pexip Logo White RGB.svg" alt="IMDb" />
-                <img className="max-h-10 w-auto object-contain" src="/images/sponsors/hetzner-logo.svg" alt="Hetzner" />
-                <img className="max-h-24 w-auto object-contain" src="/images/sponsors/thedatacitywhite.png" alt="DataCity" />
-                {/* <img className="max-h-12 w-auto object-contain" src="/images/sponsors/UniOfLeeds.png" alt="Uni of Leeds" /> */}
+                <img className="max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" />
+                <img className="max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" />
+                <img className="max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" />
+                <img className="max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" />
+                <img className="max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" />
+                <img className="max-h-16 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" />
+                <img className="max-h-16 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo.png" alt="Rebuilding Society" />
+                
+                <img className="max-h-12 w-auto object-contain" src="/images/leedshack/leeds-university-logo.png" alt="University of Leeds" />
             </div>
                 <div className="relative mx-1 h-96 md:h-96">
                     <div className="absolute inset-0 bg-black opacity-70"></div>
@@ -147,6 +151,10 @@ export default function Leedshack() {
                         </li>
                     </ul>                
                 </div>
+                <h2 className="text-2xl md:text-4xl font-bold text-left mt-4 underline underline-offset-8" style={{ textDecorationColor: '#48bc4c' }}>
+                    Meet the sponsors
+                </h2>
+                <SponsorCarousel />
                 <h2 className="text-2xl md:text-4xl font-bold text-left mt-4 underline underline-offset-8" style={{ textDecorationColor: '#48bc4c' }}>
                     Frequently asked questions
                 </h2>
