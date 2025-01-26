@@ -3,6 +3,7 @@
 import Navbar from "../../components/navbar";
 import Image from "next/image";
 import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
+import { LuCalendarClock, LuMapPin } from "react-icons/lu";
 import { SponsorCarousel } from "../../components/sponsor-carousel";
 
 import { useState } from 'react';
@@ -30,7 +31,7 @@ export default function Leedshack() {
             answer: "Our sponsors will outline their challenges in the opening talks, and you will have the opportunity to ask them questions and find out more about what they are looking for. The challenges will be a mix of short and open-ended software design briefs."
         },
         {
-            question: "What kind of thing will I be building?",
+            question: "What will I be building?",
             answer: "You can build anything you like, as long as it is related to the challenge you have chosen. This could be a website, an app, a game, or anything else you can think of. Submissions will be judged on things like creativity, innovative use of resources, and how well you have met the challenge brief."
         },
         {
@@ -57,17 +58,17 @@ export default function Leedshack() {
             answer: "LeedsHack will be an amazing opportunity to challenge yourself to create something innovative in just 24 hours, picking up new skills and making friends along the way. You will also have the opportunity to talk to and attend workshops run by our sponsors, exciting tech companies offering internships and graduate roles, and hackathons also are a great thing to put on a CV and talk about in interviews."
         },
         {
-            question: "How can I register?",
+            question: "When will I know if I have a ticket?",
+            answer: "Registration has now closed. We will let you know if you have a ticket by the 29th of January."
+        },
+        {
+            question: "What if I get a ticket but can't attend?",
             answer: (
                 <>
-                    You can currently register <a href="https://universe.com/leedshack2025" className="text-blue-500 text-m underline font-jetbrains">here</a>. Registration will close on the 22nd of January.
+                    We completely understand, but please <a href="mailto:events@luucompsoc.co.uk" className="text-blue-500 text-m underline font-jetbrains">email us</a> to let us know!
                 </>
             )
         },
-        {
-            question: "When will I know if I have a ticket?",
-            answer: "We may be oversubscribed, so registration does not guarantee you a ticket. We will let you know if you have a ticket by the 29th of January."
-        }
 
         
     ];
@@ -85,24 +86,38 @@ export default function Leedshack() {
         <div className="flex flex-col min-h-screen">
         <main className="flex-grow flex flex-col items-left space-y-6 p-4 md:p-24 bg-primary text-white overflow-y-auto scroll-smooth pt-12 md:pt-24">
             <Navbar />
-            <div className="flex flex-col md:flex-row items-start md:items-center justify-center gap-8">
-                <Image src="/images/leedshack/leedshack-logo.svg" alt="LeedsHack" className="mt-10 mb-8" width="800" height="428" />
-                <Image src="/images/DateLocation.svg" alt="Date + Location" className="mt-10 mb-8 md:ml-10" width="600" height="321" />
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-center md:gap-8 gap-1">
+                <Image 
+                    src="/images/leedshack/leedshack-logo.svg" 
+                    alt="LeedsHack" 
+                    className="mt-10 mb-8 w-full md:w-1/2 lg:w-2/3" 
+                    width="800" 
+                    height="428" 
+                />
+                <div className="flex flex-col items-left justify-center gap-4 sm:gap-4 md:gap-8 lg:gap-8 mt-1 sm:mt-1 md:mt-4 lg:mt-8">
+                    <div className="p-4 flex items-center space-x-2">
+                        <LuCalendarClock className="inline mr-2 text-green-500" size={30} />
+                        <span className="text-white text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold">8-9th February</span>
+                    </div>
+                    <div className="p-4 flex items-center space-x-2">
+                        <LuMapPin className="inline mr-2 text-green-500 w-16 h-16 md:w-10 md:h-10" />
+                        <span className="text-white text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold">Sir William Henry Bragg Building, University of Leeds</span>
+                    </div>
+                </div>
             </div>
-            {/* <div className="flex items-start">
-                 <Image src="/images/leedsHackhero.svg" alt="LeedsHack" className = "mt-12" width="1800" height="428" />
-            </div>
-             */}
-            <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-24 pt-4 pb-8">
-                <img className="max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" />
-                <img className="max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" />
-                <img className="max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" />
-                <img className="max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" />
-                <img className="max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" />
-                <img className="max-h-16 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" />
-                <img className="max-h-16 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo.png" alt="Rebuilding Society" />
-                
-                <img className="max-h-12 w-auto object-contain" src="/images/leedshack/leeds-university-logo.png" alt="University of Leeds" />
+            <h2 className="text-2xl md:text-4xl font-bold text-center mt-4">
+                In collaboration with 
+            </h2>
+            <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-12 pt-4 pb-8">
+                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" />
+                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" />
+                <img className="max-h-6 sm:max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" />
+                <img className="max-h-5 sm:max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" />
+                <img className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" />
+                <img className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" />
+                <img className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo-white.png" alt="Rebuilding Society" />
+                <img className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/audacia-logo-white.png" alt="Audacia" />
+                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/leeds-university-logo.png" alt="University of Leeds" />
             </div>
                 <div className="relative mx-1 h-96 md:h-96">
                     <div className="absolute inset-0 bg-black opacity-70"></div>
@@ -116,11 +131,11 @@ export default function Leedshack() {
                     <div className="absolute inset-0 flex items-center justify-center">
                         <div className="bg-black bg-opacity-50 w-full h-full flex flex-col items-center justify-center p-4 md:p-8 space-y-4 md:space-y-8">
                             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-center font-bold leading-relaxed sm:leading-loose md:leading-loose lg:leading-loose text-white px-4 sm:px-8 md:px-12 lg:px-16">
-                                Registration for LeedsHack is now open!
+                                We're excited to welcome you to our 24 hour hackathon!
                             </p>
-                            <a href="https://universe.com/leedshack2025">
+                            <a href="#sponsors">
                                 <button className="px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 lg:px-12 lg:py-6 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold rounded custom-bg custom-bg-hover">
-                                    Register
+                                    Meet the sponsors
                                 </button>
                             </a>
                         </div>
@@ -147,11 +162,15 @@ export default function Leedshack() {
                             Food and drink will be provided throughout the event.
                         </li>
                         <li className="mb-4">
-                            Registration is now open until the 22nd of January. Please note that registration does not guarantee a ticket, and if we are oversubscribed, tickets will be allocated randomly. We will let you know if you have a ticket by the 29th of January.
+                        If you identify as female or non-binary, we encourage you to sign up for our workshop 'How to secure a role in tech' with <a href="https://rewritingthecode.org/" className="font-jetbrains text-blue-500 underline">
+                        <span className="text-blue-500 underline">Rewriting the Code</span></a> on Tuesday 4th February. This will prepare you for networking with sponsors, CVs and assessments. Sign up <a href="https://engage.luu.org.uk/events/7QT8X/leedshack-2025-x-rewriting-the-code-workshop" className="font-jetbrains text-blue-500 underline">
+                        <span className="text-blue-500 underline">here</span>
+                        </a>
+                        .
                         </li>
                     </ul>                
                 </div>
-                <h2 className="text-2xl md:text-4xl font-bold text-left mt-4 underline underline-offset-8" style={{ textDecorationColor: '#48bc4c' }}>
+                <h2 id="sponsors" className="text-2xl md:text-4xl font-bold text-left mt-4 underline underline-offset-8" style={{ textDecorationColor: '#48bc4c' }}>
                     Meet the sponsors
                 </h2>
                 <SponsorCarousel />

@@ -52,25 +52,51 @@ body {
 .sponsor-card {
   display: flex;
   flex-direction: column;
-  flex: 1 1 calc(33.333% - 1rem);
-  margin: 0.5rem;
+  justify-content: space-between;
   height: 100%;
+  margin: 0.5rem;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
-.image-container {
-  position: relative;
-  height: 25%;
-  padding: 1rem;
+.sponsor-card .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 0.5rem; /* Add padding around the edges */
 }
 
-@media (min-width: 768px) {
-  .sponsor-card-container {
-      display: flex;
-      flex-wrap: wrap;
+.sponsor-card .image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain; /* Ensure the image fits within the container without cropping */
+}
+
+.sponsor-card .description {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.sponsorship-tier-image {
+  height: 67px;
+  width: auto;
+}
+
+.slick-slide {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.sponsor-card h2 {
+  font-size: 1.5rem;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .sponsor-card h2 {
+    font-size: 1.2rem;
   }
-
-  .sponsor-card {
-      flex: 1 1 calc(33.333% - 1rem);
-      margin: 0.5rem;
-  }
 }
+

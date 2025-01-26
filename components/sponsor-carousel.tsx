@@ -62,17 +62,17 @@ export const SponsorCarousel: React.FC = () => {
                 name="The Data City"
                 website="https://thedatacity.com/"
                 photo="/images/leedshack/the-data-city-logo.png"
-                photoHeight={64}
-                photoWidth={200}
-                description="The Data City is a Leeds-based tech scale-up on a mission to revolutionise the way governments and industries make decisions. They are building the world's first real-time global industrial classification system, transforming outdated economic models with innovative, actionable insights. By integrating cutting-edge technology and machine learning, they empower policymakers, investors, and businesses to foster growth, innovation, and investment in a way that has never been done before. To fuel their ambitious global expansion, they're hiring up to six talented individuals for roles including front-end developers, back-end developers, data scientists, statisticians, and product managers."
+                photoHeight={128}
+                photoWidth={400}
+                description="The Data City is a Leeds-based tech scale-up on a mission to revolutionise the way governments and industries make decisions. We are building the world's first real-time global industrial classification system, transforming outdated economic models with innovative, actionable insights. By integrating cutting-edge technology and machine learning, we empower policymakers, investors, and businesses to foster growth, innovation, and investment in a way that has never been done before. To fuel our ambitious global expansion, we're hiring up to six talented individuals for roles including front-end developers, back-end developers, data scientists, statisticians, and product managers."
             />
             <SponsorCard
                 type="sunflower"
                 name="Rebuilding Society"
                 website="https://rebuildingsociety.com/"
                 photo="/images/leedshack/rebuilding-society-logo.png"
-                photoHeight={135}
-                photoWidth={407}
+                photoHeight={200}
+                photoWidth={500}
                 description="rebuildingsociety.com is a Leeds-based fintech that specialises in decentralised finance with over 10 years experience in peer-to-peer lending and crypto. Regulated by the FCA."
             />
             <SponsorCard
@@ -80,8 +80,8 @@ export const SponsorCarousel: React.FC = () => {
                 name="Pexip"
                 website="https://pexip.com/"
                 photo="/images/leedshack/pexip-logo.png"
-                photoHeight={203}
-                photoWidth={750}
+                photoHeight={130}
+                photoWidth={400}
                 description="Pexip's mission is to provide seamless video communication to all organisations regardless of technology platforms and security requirements. We have a strong position in a growing market, driven by key partnerships with all the major industry players, and our goal is to be the world's leading provider of video interoperability and the number one self-hosted video meeting solution. Our success is driven by our people, and our core values of One Team, Freedom and Responsibility, Professional and Fun, and No Bullsh*t."
             />
             <SponsorCard
@@ -98,18 +98,18 @@ export const SponsorCarousel: React.FC = () => {
                 name="Hetzner"
                 website="https://hetzner.com/"
                 photo="/images/leedshack/hetzner-logo.jpg"
-                photoHeight={200}
-                photoWidth={200}
+                photoHeight={400}
+                photoWidth={400}
                 description="Hetzner was founded 1997 and is one of Europe's biggest web hosting companies. We offer dedicated servers, cloud solutions, web hosting, storage products and much more - at unbelievably low prices."
             />
             <SponsorCard
                 type="seed"
                 name="Audacia"
-                website="https://audacia.com/"
+                website="https://audacia.co.uk/"
                 photo="/images/leedshack/audacia-logo.png"
                 photoHeight={204}
                 photoWidth={204}
-                description="Paragraph"
+                description="Audacia is a leading UK software development company with a reputation as a critical technology partner for mission critical bespoke software projects."
             />
         </Slider>
     );
