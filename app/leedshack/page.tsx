@@ -109,15 +109,15 @@ export default function Leedshack() {
                 In collaboration with 
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-12 pt-4 pb-8">
-                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" />
-                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" />
-                <img className="max-h-6 sm:max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" />
-                <img className="max-h-5 sm:max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" />
-                <img className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" />
-                <img className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" />
-                <img className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo-white.png" alt="Rebuilding Society" />
-                <img className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/audacia-logo-white.png" alt="Audacia" />
-                <img className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/leeds-university-logo.png" alt="University of Leeds" />
+                <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" width={2560} height={613} />
+                <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" width={415} height={200} />
+                <Image className="max-h-6 sm:max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" width={750} height={203}/>
+                <Image className="max-h-5 sm:max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" width={181} height={22} />
+                <Image className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" width={870} height={287} />
+                <Image className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" width={242} height={96} />
+                <Image className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo-white.png" alt="Rebuilding Society" width={241} height={92} />
+                <Image className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/audacia-logo-white.png" alt="Audacia" width={146} height={141} />
+                <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/leeds-university-logo.png" alt="University of Leeds" width={651} height={186} />
             </div>
                 <div className="relative mx-1 h-96 md:h-96">
                     <div className="absolute inset-0 bg-black opacity-70"></div>
@@ -131,7 +131,7 @@ export default function Leedshack() {
                     <div className="absolute inset-0 flex items-center justify-center">
                         <div className="bg-black bg-opacity-50 w-full h-full flex flex-col items-center justify-center p-4 md:p-8 space-y-4 md:space-y-8">
                             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-center font-bold leading-relaxed sm:leading-loose md:leading-loose lg:leading-loose text-white px-4 sm:px-8 md:px-12 lg:px-16">
-                                We're excited to welcome you to our 24 hour hackathon!
+                                We&apos;re excited to welcome you to our 24 hour hackathon!
                             </p>
                             <a href="#sponsors">
                                 <button className="px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 lg:px-12 lg:py-6 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold rounded custom-bg custom-bg-hover">
@@ -162,7 +162,7 @@ export default function Leedshack() {
                             Food and drink will be provided throughout the event.
                         </li>
                         <li className="mb-4">
-                        If you identify as female or non-binary, we encourage you to sign up for our workshop 'How to secure a role in tech' with <a href="https://rewritingthecode.org/" className="font-jetbrains text-blue-500 underline">
+                        If you identify as female or non-binary, we encourage you to sign up for our workshop &apos;How to secure a role in tech&apos; with <a href="https://rewritingthecode.org/" className="font-jetbrains text-blue-500 underline">
                         <span className="text-blue-500 underline">Rewriting the Code</span></a> on Tuesday 4th February. This will prepare you for networking with sponsors, CVs and assessments. Sign up <a href="https://engage.luu.org.uk/events/7QT8X/leedshack-2025-x-rewriting-the-code-workshop" className="font-jetbrains text-blue-500 underline">
                         <span className="text-blue-500 underline">here</span>
                         </a>

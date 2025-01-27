@@ -109,7 +109,7 @@ export const SponsorCarousel: React.FC = () => {
                 photo="/images/leedshack/audacia-logo.png"
                 photoHeight={204}
                 photoWidth={204}
-                description="Audacia is a leading UK software development company with a reputation as a critical technology partner for mission critical bespoke software projects."
+                description="Step into the world of tech innovation with Audacia - Leeds' award-winning consultancy specialising in engineering, data, AI and cloud innovation. Trusted by global leaders, we help organisations across multiple industries improve, scale and innovate through technology - from optimising offshore wind farms to enhancing rail journeys with AI-powered chatbots. Curious to find out more? Take a closer look at our work."
             />
         </Slider>
     );
