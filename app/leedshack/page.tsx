@@ -108,7 +108,7 @@ export default function Leedshack() {
             <h2 className="text-2xl md:text-4xl font-bold text-center mt-4">
                 In collaboration with 
             </h2>
-            <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-12 pt-4 pb-8">
+            <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 sm:gap-x-24 sm:gap-y-12 pt-4 pb-8">
                 <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" width={2560} height={613} />
                 <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" width={415} height={200} />
                 <Image className="max-h-6 sm:max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" width={750} height={203}/>
