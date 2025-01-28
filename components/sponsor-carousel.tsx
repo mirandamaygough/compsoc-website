@@ -73,7 +73,7 @@ export const SponsorCarousel: React.FC = () => {
                 photo="/images/leedshack/rebuilding-society-logo.png"
                 photoHeight={200}
                 photoWidth={500}
-                description="rebuildingsociety.com is a Leeds-based fintech that specialises in decentralised finance with over 10 years experience in peer-to-peer lending and crypto. Regulated by the FCA."
+                description="rebuildingsociety.com is a Leeds-based fintech that specialises in decentralised finance with over 10 years of experience. Regulated by the FCA."
             />
             <SponsorCard
                 type="sprout"
