@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Barlow } from "next/font/google";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import "./globals.css";
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
