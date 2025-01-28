@@ -92,5 +92,16 @@
         "photo": "/images/leedshack/leedshack-logo.jpg",
         "photoHeight": "500",
         "photoWidth": "500"
+    },
+    {
+        "eventName": "Rewriting the Code Workshop",
+        "date": "2025-02-04",
+        "time": "17:00",
+        "location": "GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "description": "We're excited to announce our partnership with Rewriting the Code, and our first workshop will cover networking, assessments, and interviews. Open to all students identifying as female or non-binary, tickets on Engage.",
+        "photo": "/images/events/events-rtc-workshop.png",
+        "photoHeight": "1350",
+        "photoWidth": "1080"
+
     }
 ]
