@@ -35,6 +35,10 @@ export default function Leedshack() {
             answer: "You can build anything you like, as long as it is related to the challenge you have chosen. This could be a website, an app, a game, or anything else you can think of. Submissions will be judged on things like creativity, innovative use of resources, and how well you have met the challenge brief."
         },
         {
+            question: "What are the rules around what I build?",
+            answer: "In the spirit of hackathons, the project you submit should have been coded entirely by your team within the 24-hour hacking period. You are free to use whatever tools, resources, or libraries you like to help you."
+        },
+        {
             question: "What should I bring?",
             answer: "First of all, bring your laptop and charger! We want to make the event as sustainable as possible, so we encourage you to bring a reusable water bottle and coffee cup if you can. We will have some hygiene products available such as toothbrushes and deodorant, but we recommend you bring your own if you would prefer."
         },
@@ -56,10 +60,6 @@ export default function Leedshack() {
         },
         {   question: "Why should I attend?",
             answer: "LeedsHack will be an amazing opportunity to challenge yourself to create something innovative in just 24 hours, picking up new skills and making friends along the way. You will also have the opportunity to talk to and attend workshops run by our sponsors, exciting tech companies offering internships and graduate roles, and hackathons also are a great thing to put on a CV and talk about in interviews."
-        },
-        {
-            question: "When will I know if I have a ticket?",
-            answer: "Registration has now closed. We will let you know if you have a ticket by the 29th of January."
         },
         {
             question: "What if I get a ticket but can't attend?",
@@ -112,8 +112,8 @@ export default function Leedshack() {
                 <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/snowflake-logo.png" alt="Snowflake" width={2560} height={613} />
                 <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/imdb-logo.png" alt="IMDb" width={415} height={200} />
                 <Image className="max-h-6 sm:max-h-12 w-auto object-contain" src="/images/leedshack/pexip-logo-white.svg" alt="Pexip" width={750} height={203}/>
-                <Image className="max-h-5 sm:max-h-10 w-auto object-contain" src="/images/leedshack/hetzner-logo.svg" alt="Hetzner" width={181} height={22} />
-                <Image className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" width={870} height={287} />
+                <Image className="max-h-10 sm:max-h-20 w-auto object-contain" src="/images/leedshack/hetzner-logo.jpg" alt="Hetzner" width={181} height={22} />
+                <Image className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/the-data-city-logo-white.png" alt="The Data City" width={2501} height={955} />
                 <Image className="max-h-12 sm:max-h-24 w-auto object-contain" src="/images/leedshack/glean-logo.png" alt="Glean" width={242} height={96} />
                 <Image className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/rebuilding-society-logo-white.png" alt="Rebuilding Society" width={241} height={92} />
                 <Image className="max-h-14 sm:max-h-28 w-auto object-contain" src="/images/leedshack/audacia-logo-white.png" alt="Audacia" width={146} height={141} />
