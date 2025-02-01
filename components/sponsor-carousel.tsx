@@ -100,7 +100,7 @@ export const SponsorCarousel: React.FC = () => {
                 photo="/images/leedshack/hetzner-logo.jpg"
                 photoHeight={400}
                 photoWidth={400}
-                description="Hetzner was founded 1997 and is one of Europe's biggest web hosting companies. We offer dedicated servers, cloud solutions, web hosting, storage products and much more - at unbelievably low prices."
+                description="Hetzner Online is a professional web hosting provider and experienced data center operator. Since 1997, the company has provided private and business clients with high-performance hosting products as well as the necessary infrastructure for the efficient operation of websites. A combination of stable technology, attractive pricing, and flexible support and services has enabled Hetzner Online to continuously strengthen its market position both nationally and internationally."
             />
             <SponsorCard
                 type="seed"
