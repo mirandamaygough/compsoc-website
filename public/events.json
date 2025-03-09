@@ -1,24 +1,23 @@
 [
     {
-        "eventName": "Freshers Fair Stall",
-        "date": "2024-09-24",
-        "time": "10:00",
-        "location": "Leeds University Union, Woodhouse, Leeds LS2 9JZ",
-        "description": "Come and meet us at the Freshers Fair to find out more about the society and our events, with merchandise and competitions."
-    },
-    {
         "eventName": "Pixel Bar Social Night",
         "date": "2024-10-03",
         "time": "19:00",
         "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
-        "description": "Join us for our first Give it a Go at Pixel Bar to meet other members and play some games."
+        "description": "Our first Give it a Go at Pixel Bar was a brilliant opportunity to meet other members and play some games. If you missed it, don't worry - there are plenty of Pixel Bar socials throughout the year.",
+        "photo": "/images/events/events-pixel-bar.jpg",
+        "photoHeight": "2305",
+        "photoWidth": "2305"
     },
     {
         "eventName": "Capture the Flag",
         "date": "2024-10-08",
         "time": "16:00",
         "location": "Helix@UoL, EC Stoner, Woodhouse, Leeds LS2 3AR",
-        "description": "Test your cybersecurity skills in our second Give it a Go, with prizes for the winning team."
+        "description": "Our second Give it a Go saw participants test their cybersecurity and problem-solving skills in a competitive puzzle competition finding secret codes in files and websites, with prizes for the winning team.",
+        "photo": "/images/events/events-capture-the-flag.jpg",
+        "photoHeight": "1134",
+        "photoWidth": "1134"
     },
     {
         "eventName": "Charity Casino Night",
@@ -37,9 +36,8 @@
         "location": "Various locations in Hyde Park, Leeds",
         "description": "A four-part night with different themed alcoholic and non-alcoholic drinks at each location, it was a huge success and a great opportunity to make new friends.",
         "photo": "/images/events/events-fridge-to-fridge.jpg",
-        "photoHeight": "988",
-        "photoWidth": "988"
-
+        "photoHeight": "2501",
+        "photoWidth": "2501"
     },
     {
         "eventName": "Charity Summer Ball",
@@ -82,26 +80,83 @@
         "photoHeight": "2268",
         "photoWidth": "2268"
     },
-
     {
         "eventName": "LeedsHack 2025",
         "date": "2025-02-08",
         "time": "10:00",
         "location": "Sir William Henry Bragg, University of Leeds, Woodhouse, Leeds LS2 9JT",
-        "description": "Our first hackathon is coming - expect 24 hours of coding, workshops, and networking with industry professionals, with prizes for the best projects and a chance to showcase your skills. Food and drinks are provided!",
-        "photo": "/images/leedshack/leedshack-logo.jpg",
-        "photoHeight": "500",
-        "photoWidth": "500"
+        "description": "Our first hackathon was a huge success - 24 hours of coding, workshops, and networking with industry professionals, with prizes for the best projects and a chance to showcase skills and learn new ones.",
+        "photo": "/images/events/events-leedshack.jpg",
+        "photoHeight": "1197",
+        "photoWidth": "1197"
     },
     {
         "eventName": "Rewriting the Code Workshop",
         "date": "2025-02-04",
         "time": "17:00",
         "location": "GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
-        "description": "We're excited to announce our partnership with Rewriting the Code, and our first workshop will cover networking, assessments, and interviews. Open to all students identifying as female or non-binary, tickets on Engage.",
-        "photo": "/images/events/events-rtc-workshop.png",
-        "photoHeight": "1350",
-        "photoWidth": "1080"
+        "description": "We're excited to announce our partnership with Rewriting the Code, and our first workshop covered networking, assessments, and interviews, fostering a sense of community for our female and non-binary members.",
+        "photo": "/images/events/events-rtc-workshop.jpg",
+        "photoHeight": "1536",
+        "photoWidth": "1536"
 
+    },
+    {
+        "eventName": "Halloween Fridge-to-Fridge",
+        "date": "2024-10-25",
+        "time": "20:00",
+        "location": "Various locations in Hyde Park, Leeds",
+        "description": "The return of our fridge-to-fridge with a Halloween twist was another success, and there were some brilliant costumes on display! There's no better way to celebrate spooky season than with your friends and a fridge-to-fridge.",
+        "photo": "/images/events/events-halloween-fridge-to-fridge.jpg",
+        "photoHeight": "2267",
+        "photoWidth": "2267"
+    },
+    {
+        "eventName": "Mario Kart Tournament",
+        "date": "2024-11-07",
+        "time": "19:00",
+        "location":"Pixel Bar, 25 Great George St, Leeds LS1 3AL",
+        "description": "Our regular Pixel Bar tournament made a return for this semester, with another closely fought Mario Kart battle, plenty of other games and delicious drinks. Whether you're a Mario Kart pro or coming along to socialise and play casually, everyone is welcome.",
+        "photo": "/images/events/events-mario-kart-2.jpg",
+        "photoHeight": "900",
+        "photoWidth": "900"
+    },
+    {
+        "eventName": "Personal Branding Workshop",
+        "date": "2024-11-14",
+        "time": "13:00",
+        "location": "Esther Simpson Building, Lyddon Terrace, Leeds LS2 9LA",
+        "description": "A workshop run by Virgin Media O2 aimed at women in tech, this was a great opportunity to learn about personal branding and career skills from experts in a leading tech company. We're passionate about supporting our members to overcome barriers.",
+        "photo": "/images/events/events-branding-workshop.jpg",
+        "photoHeight": "1536",
+        "photoWidth": "1536"
+    },
+    {
+        "eventName": "Arcade Club",
+        "date": "2024-11-21",
+        "time": "19:00",
+        "location": "Arcade Club, Abbey Retail Park, Savins Mill Way, Kirkstall, Leeds LS5 3RP",
+        "description": "A night at Europe's largest free play video arcade was a social not to be missed. With over 300 machines as well as modern consoles, it was a brilliant way to socialise and try something new... or not, if you're already a retro games fan!"
+    },
+    {
+        "eventName": "Fridge-to-Fridge",
+        "date": "2025-02-21",
+        "time": "20:00",
+        "location": "Various locations in Hyde Park, Leeds",
+        "description": "Another fun instalment of our fridge-to-fridge tradition saw attendees dress as their type! As always, there were plenty of alcoholic and non-alcoholic drinks at each house and it was a great social opportunity to meet new people."
+    },
+    {
+        "eventName": "Pub Quiz",
+        "date": "2025-03-04",
+        "time": "19:00",
+        "location":"LUU Function Room, Woodhouse, Leeds LS2 9JZ",
+        "description": "Our second pub quiz was as successful as the first, with fun round themes such as Geoguessr, music, logos, and the famous minigames. It was a closely fought competition with the winning team taking home £50 in Nando's vouchers."
+    },
+    {
+        "eventName": "Bragging Rights (Paintball)",
+        "date": "2025-03-22",
+        "time": "12:15",
+        "location": "Skirmish Paintball, Bramham Park Estate, South York Road, Leeds LS24 9NR",
+        "description": "Our first collaboration with PhysSoc will see the societies going head-to-head in a paintball competition to decide who will be crowned the best in the building and be awarded official Bragging Rights! Make sure to get your ticket on Engage and don't let Computer Science down!"
     }
 ]
