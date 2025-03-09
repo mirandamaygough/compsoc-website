@@ -42,7 +42,7 @@ export default function Sponsors() {
                         You will actively participate in the designing, maintaining and upgrading of services that are critical to the NHS and many healthcare organisations around the world. You will be working as a team to address the current challenges such as the rapid expansion of their mobile apps and AI as they scale on an international level. You will also have the opportunity to travel internationally to scope out data centres, design and size new projects and join in on technical discussions at government level. If you enjoy solving technical problems, have an interest in technology and thrive in a fast-paced environment then this role is for you.
                     </p>
                     <p className="font-barlow text-xl mb-2">
-                    To read what it&apos;s like to work at TPP and to see their full list of benefits, visit <a href="https://tpp-careers.com" className="font-jetbrains text-blue-500 underline">tpp-careers.com</a>.
+                    To apply, please visit <a href="https://tpp-careers.com/roles/technical-systems-administrator/" className="font-jetbrains text-blue-500 underline">tpp-careers.com/roles/technical-systems-administrator/</a>.
                     </p>
                 </div>
                 <div>
@@ -54,7 +54,7 @@ export default function Sponsors() {
                     You&apos;ll be part of an agile development team, working on one of the largest real-time databases in the world. You&apos;ll work on a wide variety of projects, ranging from AI assisting clinicians with early diagnosis of cancer to an iOS app helping patients manage their diabetes. Developers at TPP are involved in the full software cycle, and work closely with all teams across the company to scope out new projects and design, develop and deploy products.
                     </p>
                     <p className="font-barlow text-xl mb-2">
-                        To read what it&apos;s like to work at TPP and to see their full list of benefits, visit <a href="https://tpp-careers.com" className="font-jetbrains text-blue-500 underline">tpp-careers.com</a>.
+                        To apply, please visit <a href="https://tpp-careers.com/roles/graduate-software-developer/" className="font-jetbrains text-blue-500 underline">tpp-careers.com/roles/graduate-software-developer/</a>.
                     </p>
                 </div>
                 <div>

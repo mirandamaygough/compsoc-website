@@ -27,8 +27,8 @@ export const EventCard: React.FC<EventCardProps> = ({
     description,
 }) => {
     return (
-        <div className="bg-white rounded-slg shadow-lg p-4">
-            <Image src={photo} alt={eventName} className="w-full aspect-w-16 aspect-h-9 object-cover rounded-t-lg" height={photoHeight} width={photoWidth}/>
+        <div className="bg-white rounded-lg shadow-lg p-4 flex flex-col sponsor-card">
+            <Image src={photo} alt={eventName} className="w-full aspect-w-16 aspect-h-9 object-cover rounded-lg" height={photoHeight} width={photoWidth}/>
             <div className="p-5">
                 <h2 className="text-2xl text-black font-bold mb-2">{eventName}</h2>
                 <p className="text-lg text-gray-500 mb-2 font-barlow">
@@ -38,7 +38,7 @@ export const EventCard: React.FC<EventCardProps> = ({
                 <p className="text-lg text-gray-500 mb-2 font-barlow">
                     <LuMapPin className="inline mr-2" size={20} />{location}
                 </p>
-                <p className="text-lg text-gray-700 font-barlow">{description}</p>
+                <p className="text-lg text-gray-700 font-barlow w-full description">{description}</p>
             </div>
         </div>
     );

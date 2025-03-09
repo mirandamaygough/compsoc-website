@@ -131,7 +131,7 @@ export default function Leedshack() {
                     <div className="absolute inset-0 flex items-center justify-center">
                         <div className="bg-black bg-opacity-50 w-full h-full flex flex-col items-center justify-center p-4 md:p-8 space-y-4 md:space-y-8">
                             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-center font-bold leading-relaxed sm:leading-loose md:leading-loose lg:leading-loose text-white px-4 sm:px-8 md:px-12 lg:px-16">
-                                We&apos;re excited to welcome you to our 24 hour hackathon!
+                                Thank you so much to everyone who attended and supported LeedsHack 2025! We hope you had a brilliant time and are excited for LeedsHack 2026.
                             </p>
                             <a href="#sponsors">
                                 <button className="px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 lg:px-12 lg:py-6 text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold rounded custom-bg custom-bg-hover">

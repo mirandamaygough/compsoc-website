@@ -92,7 +92,7 @@ export default function Home() {
           </a>
           <a href="https://engage.luu.org.uk/groups/PQ3/compsoc" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
             <LuUserPlus size="2em" />
-            <span className="text-2xl underline">LUU Engage for membership</span>
+            <span className="text-2xl underline">LUU Engage for membership and event tickets</span>
           </a>
           <a href="mailto:committee@luucompsoc.co.uk" className="flex items-center space-x-2">
             <LuMail size="2em" />

@@ -68,7 +68,7 @@ export default function Committee() {
             <CommitteeMemberCard
                 name="Evan Madurai"
                 role="Academic Events Secretary"
-                roleDescription="Organises and runs events such as the first hackathon coming up in 2025, and coordinates industry collaborations."
+                roleDescription="Organises and runs events such as industry talks and workshops, and coordinates industry collaborations."
                 email="evan@luucompsoc.co.uk"
                 photo="/images/committee/committee-evan.jpg"
                 photoHeight={878}
@@ -89,8 +89,8 @@ export default function Committee() {
                 roleDescription="Leads efforts to ensure the society is inclusive and welcoming to all students, and manages initiatives to promote diversity."
                 email="miranda@luucompsoc.co.uk"
                 photo="/images/committee/committee-miranda.jpg"
-                photoHeight={1080}
-                photoWidth={1080}
+                photoHeight={1200}
+                photoWidth={1200}
             />
             <CommitteeMemberCard
                 name="Paige Uppal"
