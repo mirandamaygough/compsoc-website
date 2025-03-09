@@ -4,6 +4,7 @@ import { Event, EventCard } from "../components/events-card";
 import Navbar from "../components/navbar";
 import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react';
+import { EventsCarousel } from "@/components/events-carousel";
 import Image from 'next/image';
 import { LuInstagram, LuUserPlus, LuMail } from "react-icons/lu";
 import { FaDiscord, FaLinkedin } from "react-icons/fa6";
@@ -31,7 +32,7 @@ export default function Home() {
         
         <div className="pt-14 flex flex-col md:flex-row items-center justify-between w-full space-y-6 md:space-y-0 md:space-x-6">
           <div className="flex-1 order-2 md:order-1">
-            <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10 leading-loose">
+            <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10 leading-snug">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -61,25 +62,11 @@ export default function Home() {
           We are the official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, so there&apos;s something for everyone.
         </p>
         <h2 className="text-4xl font-bold text-left mb-4">Upcoming events</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {events.map((event, index) => (
-            <EventCard
-              key={index}
-              eventName={event.eventName}
-              date={event.date}
-              time={event.time}
-              location={event.location}
-              description={event.description}
-              photo={event.photo}
-              photoHeight={event.photoHeight}
-              photoWidth={event.photoWidth}
-            />
-          ))}
-        </div>
+        <EventsCarousel events={events} />
         <h2 className="text-4xl font-bold text-left pt-8 mb-4">Links</h2>
         <div className="flex flex-col items-start space-y-6">
           <a href="https://www.instagram.com/luucompsoc" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
-            <LuInstagram size="2em" />
+            <LuInstagram className="w-6 h-6 md:w-8 md:h-8" />
             <span className="text-2xl underline">@luucompsoc on Instagram</span>
           </a>
           <a href="https://www.linkedin.com/company/luu-compsoc/" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
@@ -95,9 +82,11 @@ export default function Home() {
             <span className="text-2xl underline">LUU Engage for membership and event tickets</span>
           </a>
           <a href="mailto:committee@luucompsoc.co.uk" className="flex items-center space-x-2">
-            <LuMail size="2em" />
-            <span className="text-2xl underline">committee@luucompsoc.co.uk for general enquiries</span>
-          </a>
+          <LuMail size="2em" />
+          <span className="text-2xl underline break-all">
+            committee@luucompsoc.co.uk for enquiries
+          </span>
+        </a>
         </div>
         </div>
       </main>

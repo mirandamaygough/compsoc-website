@@ -99,12 +99,3 @@ body {
     font-size: 1.2rem;
   }
 }
-
-.left-aligned-carousel .slick-track {
-  margin-left: 0;
-}
-
-.carousel-item-wrapper {
-  display: flex;
-  justify-content: flex-start;
-}
