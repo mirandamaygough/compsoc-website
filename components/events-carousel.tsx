@@ -65,7 +65,12 @@ export const EventsCarousel: React.FC<EventsCarouselProps> = ({ events }) => {
 
   return (
     <div className="relative w-full">
-      <div className="px-4 md:px-0">
+      <div
+        className="w-full md:w-auto px-4 md:px-0"
+        style={{
+            width: isMobile ? "100%" : events.length < 3 ? `${events.length * 33.33}%` : "100%",
+        }}
+        >
         <Slider {...settings}>
           {events.map((event, index) => (
             <EventCard

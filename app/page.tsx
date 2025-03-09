@@ -62,9 +62,7 @@ export default function Home() {
           We are the official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, so there&apos;s something for everyone.
         </p>
         <h2 className="text-4xl font-bold text-left mb-4">Upcoming events</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <EventsCarousel events={events} />
-        </div>
         <h2 className="text-4xl font-bold text-left pt-8 mb-4">Links</h2>
         <div className="flex flex-col items-start space-y-6">
           <a href="https://www.instagram.com/luucompsoc" target="_blank" rel="noreferrer" className="flex items-center space-x-2">
