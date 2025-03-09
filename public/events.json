@@ -99,7 +99,6 @@
         "photo": "/images/events/events-rtc-workshop.jpg",
         "photoHeight": "1536",
         "photoWidth": "1536"
-
     },
     {
         "eventName": "Halloween Fridge-to-Fridge",
@@ -157,6 +156,9 @@
         "date": "2025-03-22",
         "time": "12:15",
         "location": "Skirmish Paintball, Bramham Park Estate, South York Road, Leeds LS24 9NR",
-        "description": "Our first collaboration with PhysSoc will see the societies going head-to-head in a paintball competition to decide who will be crowned the best in the building and be awarded official Bragging Rights! Make sure to get your ticket on Engage and don't let Computer Science down!"
+        "description": "Our first collaboration with PhysSoc will see the societies going head-to-head in a paintball competition to decide who will be crowned the best in the building and be awarded official Bragging Rights! Make sure to get your ticket on Engage and don't let Computer Science down!",
+        "photo": "/images/events/events-bragging-rights.jpg",
+        "photoHeight": "1080",
+        "photoWidth": "1080"
     }
 ]
