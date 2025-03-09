@@ -32,7 +32,7 @@ export default function Home() {
         
         <div className="pt-14 flex flex-col md:flex-row items-center justify-between w-full space-y-6 md:space-y-0 md:space-x-6">
           <div className="flex-1 order-2 md:order-1">
-            <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10 leading-loose">
+            <h1 className="text-6xl md:text-8xl px-4 font-bold md:px-10 mt-10 leading-snug">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
