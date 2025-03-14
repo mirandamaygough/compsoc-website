@@ -160,5 +160,15 @@
         "photo": "/images/events/events-bragging-rights.jpg",
         "photoHeight": "1080",
         "photoWidth": "1080"
+    },
+    {
+        "eventName": "AGM (Annual General Meeting)",
+        "date": "2025-03-25",
+        "time": "17:30",
+        "location":"GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "description": "Our in-person AGM is open to all members and is a chance to have your say on the direction of the society, and hear from and ask questions of the candidates running in this year's elections. There will also be a social in Terrace/Old Bar afterwards, so please come along!",
+        "photo": "/images/events/events-agm.jpg",
+        "photoHeight": "2431",
+        "photoWidth": "2431"
     }
 ]
