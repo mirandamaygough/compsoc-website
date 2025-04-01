@@ -152,11 +152,11 @@
         "description": "Our second pub quiz was as successful as the first, with fun round themes such as Geoguessr, music, logos, and the famous minigames. It was a closely fought competition with the winning team taking home £50 in Nando's vouchers."
     },
     {
-        "eventName": "Bragging Rights (Paintball)",
+        "eventName": "Bragging Rights 1.0: Paintball",
         "date": "2025-03-22",
         "time": "12:15",
         "location": "Skirmish Paintball, Bramham Park Estate, South York Road, Leeds LS24 9NR",
-        "description": "Our first collaboration with PhysSoc will see the societies going head-to-head in a paintball competition to decide who will be crowned the best in the building and be awarded official Bragging Rights! Make sure to get your ticket on Engage and don't let Computer Science down!",
+        "description": "Our first collaboration with Physics saw the societies going head-to-head in a paintball competition, with Computer Science being crowned the best in the building and be awarded official Bragging Rights!",
         "photo": "/images/events/events-bragging-rights.jpg",
         "photoHeight": "1080",
         "photoWidth": "1080"
@@ -166,9 +166,19 @@
         "date": "2025-03-25",
         "time": "17:30",
         "location":"GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
-        "description": "Our in-person AGM is open to all members and is a chance to have your say on the direction of the society, and hear from and ask questions of the candidates running in this year's elections. There will also be a social in Terrace/Old Bar afterwards, so please come along!",
+        "description": "Our in-person AGM was open to all members and giving them a chance to have their say on the direction of the society, and hear from and ask questions of the candidates running in this year's elections. It was great to see so many people there!",
         "photo": "/images/events/events-agm.jpg",
         "photoHeight": "2431",
         "photoWidth": "2431"
+    },
+    {
+        "eventName": "Summer Ball",
+        "date": "2025-05-05", 
+        "time": "18:00",
+        "location": "Royal Armouries, Armouries Drive, Leeds LS10 1LT",
+        "description": "Our summer ball is returning bigger and better! With a starry night theme and black tie dress code, a £20 ticket will get you a welcome drink, 3-course meal, and half a bottle of wine. Bring friends and celebrate the end of the year in style! Tickets are on Engage now.",
+        "photo": "/images/events/events-summer-ball-2.jpg",
+        "photoHeight": "1239",
+        "photoWidth": "1239"
     }
 ]
